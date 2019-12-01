@@ -257,7 +257,7 @@
         
           
         
-        <span class="collection-header">嗯..! 目前共计 12 篇日志。 继续努力。</span>
+        <span class="collection-header">嗯..! 目前共计 16 篇日志。 继续努力。</span>
       </div>
       
 
@@ -317,6 +317,35 @@
         
           <a class="post-title-link" href="/2018/12/24/%E4%BA%88%E5%90%9B%E7%8E%A6%E5%BA%8F/" itemprop="url">
             <span itemprop="name">予君玦序</span>
+          </a>
+        
+      </h2>
+
+    </header>
+  </article>
+
+
+
+  
+  
+
+  
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2018-11-26T02:10:20+08:00"
+              content="2018-11-26">
+          11-26
+        </time>
+      </div>
+
+      <h2 class="post-title">
+        
+          <a class="post-title-link" href="/2018/11/26/%E9%AD%82%E6%AE%87%EF%BC%88%E5%85%B6%E5%9B%9B%EF%BC%89/" itemprop="url">
+            <span itemprop="name">魂殇（其四）</span>
           </a>
         
       </h2>
@@ -467,7 +496,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-count">16</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -480,7 +509,7 @@
             <a href="/categories/">
           
         
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">分类</span>
         </a>
       </div>
@@ -599,6 +628,33 @@
   
 
   
+
+
+<script>
+NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js', () => {
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(item => {
+    return GUEST.includes(item);
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'irKkKkDzRtvTQsRK529EjwsD-gzGzoHsz',
+    appKey: 'JDoG3o236HzChPbr8cQ2AX1G',
+    placeholder: "Let's chat!",
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: 'zh-cn' || 'zh-cn',
+    path: location.pathname,
+    recordIP: false,
+    serverURLs: ''
+  });
+}, window.Valine);
+</script>
 
 </body>
 </html>
