@@ -83,7 +83,7 @@
 <meta property="og:image" content="https:&#x2F;&#x2F;ns05.github.io.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;MacOS-Set-up-Your-Blog-by-Hexo-and-Github&#x2F;deploy.png">
 <meta property="og:image" content="https:&#x2F;&#x2F;ns05.github.io.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;MacOS-Set-up-Your-Blog-by-Hexo-and-Github&#x2F;upload.png">
 <meta property="og:image" content="https:&#x2F;&#x2F;ns05.github.io.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;MacOS-Set-up-Your-Blog-by-Hexo-and-Github&#x2F;WebBlog.png">
-<meta property="og:updated_time" content="2019-12-05T13:53:42.312Z">
+<meta property="og:updated_time" content="2019-12-05T14:07:56.450Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https:&#x2F;&#x2F;ns05.github.io.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;MacOS-Set-up-Your-Blog-by-Hexo-and-Github&#x2F;nodejs.png">
   <link rel="canonical" href="https://ns05.github.io.com/2019/12/03/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/">
@@ -356,7 +356,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h3><h5 id="在MacOS系统中安装-node-js"><a href="#在MacOS系统中安装-node-js" class="headerlink" title="在MacOS系统中安装 node.js"></a>在MacOS系统中安装 node.js</h5><p>下载安装包 macOS Installer 进行安装 &gt;&gt;&gt; <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">立即前往</a></p><p>如遇到安装包来源于网络不明开发者，打开 系统偏好设置&gt;&gt;&gt;安全性与隐私&gt;&gt;&gt;通用&gt;&gt;&gt;仍要打开 即可</p><a id="more"></a>
+        <h4 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h4><h5 id="在MacOS系统中安装-node-js"><a href="#在MacOS系统中安装-node-js" class="headerlink" title="在MacOS系统中安装 node.js"></a>在MacOS系统中安装 node.js</h5><p>下载安装包 macOS Installer 进行安装 &gt;&gt;&gt; <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">立即前往</a></p><p>如遇到安装包来源于网络不明开发者，打开 系统偏好设置&gt;&gt;&gt;安全性与隐私&gt;&gt;&gt;通用&gt;&gt;&gt;仍要打开 即可</p><a id="more"></a>
 
 <img src="/2019/12/03/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/nodejs.png" alt="nodejs" style="zoom: 50%;">
 
@@ -377,7 +377,8 @@
 <p>安装完成后，输入<code>sudo hexo -v</code>查看版本</p>
 <img src="/2019/12/03/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/HexoCheck.png" alt="HexoCheck" style="zoom:50%;">
 
-<h3 id="Hexo在本地建立博客文档"><a href="#Hexo在本地建立博客文档" class="headerlink" title="Hexo在本地建立博客文档"></a>Hexo在本地建立博客文档</h3><h6 id="Hexo建立的Blog文件夹"><a href="#Hexo建立的Blog文件夹" class="headerlink" title="Hexo建立的Blog文件夹"></a>Hexo建立的Blog文件夹</h6><p>首先在你想建立 Blog 文件夹的位置建立文件夹，PS：升级到 macOS Catalina 后 Macintosh HD 文件夹是只读状态，需修改权限。方法：显示简介 &gt;&gt;&gt; 共享与权限 &gt;&gt;&gt; 右下角解锁 &gt;&gt;&gt; 更改为读和写 &gt;&gt;&gt; 锁定</p>
+<h4 id="Hexo在本地建立博客文档"><a href="#Hexo在本地建立博客文档" class="headerlink" title="Hexo在本地建立博客文档"></a>Hexo在本地建立博客文档</h4><p>Hexo建立的Blog文件夹</p>
+<p>首先在你想建立 Blog 文件夹的位置建立文件夹，PS：升级到 macOS Catalina 后 Macintosh HD 文件夹是只读状态，需修改权限。方法：显示简介 &gt;&gt;&gt; 共享与权限 &gt;&gt;&gt; 右下角解锁 &gt;&gt;&gt; 更改为读和写 &gt;&gt;&gt; 锁定</p>
 <p>右键该文件夹 &gt;&gt;&gt; 新建位于文件夹位置的终端窗口 PS：如没有，则点击 访达（左上角） &gt;&gt;&gt; 服务 &gt;&gt;&gt; 服务偏好设置 &gt;&gt;&gt; 勾选新建位于文件夹位置的终端窗口</p>
 <img src="/2019/12/03/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/NewTerminal.png" alt="NewTerminal" style="zoom:50%;">
 
@@ -394,7 +395,7 @@
 
 <p>这个即是我们的博客啦，如果将博客比作一棵树，那么 Hexo 已经帮助我们完成了枝干和根系，接下来我们要添加只是叶子。Hexo 创建的博客，默认主题叫做 landscape （位置：/MyBlog/themes）</p>
 <p>Wait！接下来我们要让自己的博客能够在网上查阅（不要害怕，进行完下面的操作后仅能输入网址来访问，而不能被搜索引擎搜索到）</p>
-<h3 id="Github-托管个人博客"><a href="#Github-托管个人博客" class="headerlink" title="Github 托管个人博客"></a>Github 托管个人博客</h3><h5 id="Github-端"><a href="#Github-端" class="headerlink" title="Github 端"></a>Github 端</h5><p>github 是个深受程序员爱戴的开源网站，如果你接触过 github 下面的操作会相对便捷。</p>
+<h4 id="Github-托管个人博客"><a href="#Github-托管个人博客" class="headerlink" title="Github 托管个人博客"></a>Github 托管个人博客</h4><h5 id="Github-端"><a href="#Github-端" class="headerlink" title="Github 端"></a>Github 端</h5><p>github 是个深受程序员爱戴的开源网站，如果你接触过 github 下面的操作会相对便捷。</p>
 <p>首先进入<a href="https://github.com" target="_blank" rel="noopener">github官网</a>，如果你尚没有账号需要先注册，点击右上角 sign up 注册。如果你已经拥有github账号，点击 sign in 登陆即可，接下来新建项目 repository</p>
 <img src="/2019/12/03/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/NewRepository.png" alt="NewRepository" style="zoom:50%;">
 
@@ -484,7 +485,7 @@
   <p><span>本文标题:</span>MacOS Set up Your Blog by [Hexo and Github]</a></p>
   <p><span>文章作者:</span>NS05</a></p>
   <p><span>发布时间:</span>2019年12月03日 - 23:37:48</p>
-  <!-- <p><span>最后更新:</span>2019年12月05日 - 21:53:42</p>-->
+  <!-- <p><span>最后更新:</span>2019年12月05日 - 22:07:56</p>-->
   <p><span>原始链接:</span><a href="/2019/12/03/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/" title="MacOS Set up Your Blog by [Hexo and Github]">https://ns05.github.io.com/2019/12/03/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/</a>
     <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://ns05.github.io.com/2019/12/03/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/"  aria-label="复制成功！"></i></span>
   </p>
@@ -589,7 +590,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#环境配置"><span class="nav-number">1.</span> <span class="nav-text">环境配置</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#在MacOS系统中安装-node-js"><span class="nav-number">1.0.1.</span> <span class="nav-text">在MacOS系统中安装 node.js</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#安装-git"><span class="nav-number">1.0.2.</span> <span class="nav-text">安装 git</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#安装-Hexo"><span class="nav-number">1.0.3.</span> <span class="nav-text">安装 Hexo</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo在本地建立博客文档"><span class="nav-number">2.</span> <span class="nav-text">Hexo在本地建立博客文档</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#Hexo建立的Blog文件夹"><span class="nav-number">2.0.0.1.</span> <span class="nav-text">Hexo建立的Blog文件夹</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Github-托管个人博客"><span class="nav-number">3.</span> <span class="nav-text">Github 托管个人博客</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Github-端"><span class="nav-number">3.0.1.</span> <span class="nav-text">Github 端</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Hexo-端"><span class="nav-number">3.0.2.</span> <span class="nav-text">Hexo 端</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#环境配置"><span class="nav-number">1.</span> <span class="nav-text">环境配置</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#在MacOS系统中安装-node-js"><span class="nav-number">1.1.</span> <span class="nav-text">在MacOS系统中安装 node.js</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#安装-git"><span class="nav-number">1.2.</span> <span class="nav-text">安装 git</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#安装-Hexo"><span class="nav-number">1.3.</span> <span class="nav-text">安装 Hexo</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Hexo在本地建立博客文档"><span class="nav-number">2.</span> <span class="nav-text">Hexo在本地建立博客文档</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Github-托管个人博客"><span class="nav-number">3.</span> <span class="nav-text">Github 托管个人博客</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Github-端"><span class="nav-number">3.1.</span> <span class="nav-text">Github 端</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Hexo-端"><span class="nav-number">3.2.</span> <span class="nav-text">Hexo 端</span></a></li></ol></li></ol></div>
         
       </div>
       <!--/noindex-->
@@ -608,7 +609,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">52</span>
+          <span class="site-state-item-count">51</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
