@@ -31,7 +31,7 @@
     version: '7.4.2',
     exturl: false,
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
-    copycode: {"enable":false,"show_result":false,"style":null},
+    copycode: {"enable":true,"show_result":true,"style":null},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
     fancybox: false,
@@ -58,7 +58,7 @@
 </script>
 
   <meta name="description" content="环境配置在MacOS系统中安装 node.js下载安装包 macOS Installer 进行安装 &amp;gt;&amp;gt;&amp;gt; 立即前往如遇到安装包来源于网络不明开发者，打开 系统偏好设置&amp;gt;&amp;gt;&amp;gt;安全性与隐私&amp;gt;&amp;gt;&amp;gt;通用&amp;gt;&amp;gt;&amp;gt;仍要打开 即可">
-<meta name="keywords" content="Blog,Hexo">
+<meta name="keywords" content="Hexo,Blog">
 <meta property="og:type" content="article">
 <meta property="og:title" content="MacOS Set up Your Blog by [Hexo and Github]">
 <meta property="og:url" content="https:&#x2F;&#x2F;ns05.github.io.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;MacOS-Set-up-Your-Blog-by-Hexo-and-Github&#x2F;index.html">
@@ -83,7 +83,7 @@
 <meta property="og:image" content="https:&#x2F;&#x2F;ns05.github.io.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;MacOS-Set-up-Your-Blog-by-Hexo-and-Github&#x2F;deploy.png">
 <meta property="og:image" content="https:&#x2F;&#x2F;ns05.github.io.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;MacOS-Set-up-Your-Blog-by-Hexo-and-Github&#x2F;upload.png">
 <meta property="og:image" content="https:&#x2F;&#x2F;ns05.github.io.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;MacOS-Set-up-Your-Blog-by-Hexo-and-Github&#x2F;WebBlog.png">
-<meta property="og:updated_time" content="2019-12-05T14:07:56.450Z">
+<meta property="og:updated_time" content="2019-12-05T16:42:54.653Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https:&#x2F;&#x2F;ns05.github.io.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;MacOS-Set-up-Your-Blog-by-Hexo-and-Github&#x2F;nodejs.png">
   <link rel="canonical" href="https://ns05.github.io.com/2019/12/03/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/">
@@ -383,7 +383,7 @@
 <img src="/2019/12/03/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/NewTerminal.png" alt="NewTerminal" style="zoom:50%;">
 
 <p>在弹出的终端窗口逐次输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo hexo i MyBlog			// MyBlog 是你想要的文件名</span><br><span class="line">cd MyBlog								// 进入 MyBlog 文件夹</span><br><span class="line">sudo hexo g							// 编译</span><br><span class="line">sudo hexo s							// 以4000端口预览</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo hexo i MyBlog // MyBlog 是你想要的文件名</span><br><span class="line">cd MyBlog          // 进入 MyBlog 文件夹</span><br><span class="line">sudo hexo g        // 编译</span><br><span class="line">sudo hexo s        // 以4000端口预览</span><br></pre></td></tr></table></figure>
 
 <img src="/2019/12/03/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/4000view.png" alt="4000view" style="zoom:50%;">
 
@@ -422,7 +422,7 @@
 
 <p>保存，请注意冒号 “:” 后有空格，且注意输入法为英文。</p>
 <p>接下来同样，右键MyBlog（你的博客文件夹名称） &gt;&gt;&gt; 新建位于文件夹位置的终端窗口 &gt;&gt;&gt; 逐次输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install hexo-deployer-git --save			//安装 hexo-deployer-git 插件</span><br><span class="line">sudo hexo clean																//清除 hexo 上次的运行</span><br><span class="line">sudo hexo g																		//编译</span><br><span class="line">sudo hexo d																		//上传</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install hexo-deployer-git --save  //安装 hexo-deployer-git 插件</span><br><span class="line">sudo hexo clean                            //清除 hexo 上次的运行</span><br><span class="line">sudo hexo g                                //编译</span><br><span class="line">sudo hexo d                                //上传</span><br></pre></td></tr></table></figure>
 
 <img src="/2019/12/03/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/upload.png" alt="upload" style="zoom:50%;">
 
@@ -462,7 +462,7 @@
     
       <div>
     
-        <div style="text-align:center;color: #ccc;font-size:14px;">-------------Thank you for reading-------------</div>
+        <div style="text-align:center;color: #ccc;font-size:14px;">--------Thank you for reading--------</div>
     
 </div>
     
@@ -485,7 +485,7 @@
   <p><span>本文标题:</span>MacOS Set up Your Blog by [Hexo and Github]</a></p>
   <p><span>文章作者:</span>NS05</a></p>
   <p><span>发布时间:</span>2019年12月03日 - 23:37:48</p>
-  <!-- <p><span>最后更新:</span>2019年12月05日 - 22:07:56</p>-->
+  <!-- <p><span>最后更新:</span>2019年12月06日 - 00:42:54</p>-->
   <p><span>原始链接:</span><a href="/2019/12/03/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/" title="MacOS Set up Your Blog by [Hexo and Github]">https://ns05.github.io.com/2019/12/03/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/</a>
     <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://ns05.github.io.com/2019/12/03/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/"  aria-label="复制成功！"></i></span>
   </p>
@@ -517,9 +517,9 @@
           
           <div class="post-tags">
             
-              <a href="/tags/Blog/" rel="tag"># Blog</a>
-            
               <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+            
+              <a href="/tags/Blog/" rel="tag"># Blog</a>
             
           </div>
         
