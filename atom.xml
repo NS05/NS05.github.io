@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.ns05.top/"/>
-  <updated>2019-12-31T15:22:58.489Z</updated>
+  <updated>2019-12-31T15:23:54.299Z</updated>
   <id>https://www.ns05.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.ns05.top/2019/12/31/%E6%AE%8B%E6%AD%8C%C2%B7%E6%A8%B1/"/>
     <id>https://www.ns05.top/2019/12/31/残歌·樱/</id>
     <published>2019-12-31T14:18:50.000Z</published>
-    <updated>2019-12-31T15:22:58.489Z</updated>
+    <updated>2019-12-31T15:23:54.299Z</updated>
     
     <summary type="html">
     
@@ -41,7 +41,7 @@
     <link href="https://www.ns05.top/2019/12/31/%E4%BA%88%E5%90%9B%E7%8E%A6%C2%B7%E7%BB%88%E7%AB%A0/"/>
     <id>https://www.ns05.top/2019/12/31/予君玦·终章/</id>
     <published>2019-12-31T13:21:50.000Z</published>
-    <updated>2019-12-31T15:23:04.424Z</updated>
+    <updated>2019-12-31T15:23:54.984Z</updated>
     
     <summary type="html">
     
@@ -124,9 +124,9 @@
     
       <category term="Hexo" scheme="https://www.ns05.top/tags/Hexo/"/>
     
-      <category term="Next" scheme="https://www.ns05.top/tags/Next/"/>
-    
       <category term="Blog" scheme="https://www.ns05.top/tags/Blog/"/>
+    
+      <category term="Next" scheme="https://www.ns05.top/tags/Next/"/>
     
   </entry>
   
