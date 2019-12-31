@@ -48,7 +48,7 @@
   /*End of Initial Variables*/
   </script>
   <script type="text/javascript">
-  var bg = "https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/ThemeSakura/img/Background/YourLieInApril1.jpg,https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/ThemeSakura/img/Background/YourLieInApril2.jpg,https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/ThemeSakura/img/Background/YourLieInApril3.jpg,https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/ThemeSakura/img/Background/YourLieInApril4.png".split(",");
+  var bg = "https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.2/ThemeSakura/img/Background/YourLieInApril14.jpeg".split(",");
   var bgindex = Math.floor(Math.random()*bg.length);
   if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
     alert('朋友，IE浏览器未适配哦~');
@@ -66,14 +66,14 @@
   </div>
   <a href="#" class="cd-top faa-float animated"></a>
   <section id="main-container">
-    <div class="headertop ">
+    <div class="headertop filter-dot">
   <div id="banner_wave_1"></div>
   <div id="banner_wave_2"></div>
   <figure id="centerbg" class="centerbg">
     <div class="focusinfo no-select">
       <div class="header-tou">
         <a href="https://www.ns05.top">
-          <img src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1//img/custom/avatar.jpg">
+          <img src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.3//img/custom/avatar.jpg">
         </a>
       </div>
       <div class="header-info">
@@ -87,7 +87,7 @@
               
                 <li>
                   <a href="http://github.com/ns05" target="_blank" class="social-github" title="github">
-                    <img src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1//img/social/github.png">
+                    <img src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.3//img/social/github.png">
                   </a>
                 </li>
               
@@ -95,7 +95,7 @@
               
                 <li>
                   <a href="mailto:1157155009@qq.com" target="_blank" class="social-github" title="email">
-                    <img src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1//img/social/email.svg">
+                    <img src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.3//img/social/email.svg">
                   </a>
                 </li>
               
@@ -168,7 +168,7 @@
               <li>
                 <a href="/archives">
                   <span class="faa-parent animated-hover">
-                    <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+                    <i class="fa  fa-archive faa-tada" aria-hidden="true"></i>
                     归档
                   </span>
                 </a>
@@ -391,6 +391,13 @@
                         </a>
                       </li>
                     
+                      <li>
+                        <a href="/lab/">
+                          <i class="fa fa-wordpress" aria-hidden="true"></i>
+                          实验室
+                        </a>
+                      </li>
+                    
                   </ul>
                 
               </li>
@@ -408,7 +415,7 @@
 
   <div class="pattern-center single-center">
     <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/ThemeSakura/img/Background/YuJunJue1.jpg);" src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/ThemeSakura/img/Background/YuJunJue1.jpg">
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.4/ThemeSakura/img/Background/YourLieInApril3.jpg);" src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.4/ThemeSakura/img/Background/YourLieInApril3.jpg">
     </div>
     <header class="pattern-header single-header">
       <h1 class="entry-title">
@@ -439,15 +446,13 @@
         
         <div class="entry-content">
           <p>Hexo 主题种类繁多，除了网上搜索之外（如<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="noopener">github中Hexo主题</a>），你当然可以自己创建自己的主题，参考<a href="https://hexo.io/zh-cn/docs/themes" target="_blank" rel="noopener">Hexo主题官方文档</a>，但显然，非Web前端工程师很难自创主题，并配置完善美化良好。当然，我也仅仅是个通信工程专业的Tyro，对简雅风格喜欢的我选择了 Next ，只可惜配置过程并不是很容易，这篇博客即是我对 Next 主题调整的过程的记述。&lt;本文将一直更新&gt;</p>
-<h3 id="Next-基本配置"><a href="#Next-基本配置" class="headerlink" title="Next 基本配置"></a>Next 基本配置</h3><hr>
-<h4 id="Next-主题下载"><a href="#Next-主题下载" class="headerlink" title="Next 主题下载"></a>Next 主题下载</h4><hr>
-<p>Next 主题版本有许多，但请注意，Hexo 如果更新至 4.0.0 ，低版本的 Next 主题“上一页”“下一页”的按钮将会渲染失败，呈现出裸露的代码，据说需要将 Next 升级至 7.4.2 以上才可，故接下来的配置是对 Next 7.4.2 进行配置。首先你要有 Next 主题文件包，Don’t worry, it’s free. 现在就下载 &gt;&gt;&gt; <a href="https://github.com/theme-next/hexo-theme-next/releases/tag/v7.4.2" target="_blank" rel="noopener">点击这里</a></p>
+<hr>
+<h2 id="Next-基本配置"><a href="#Next-基本配置" class="headerlink" title="Next 基本配置"></a>Next 基本配置</h2><h3 id="Next-主题下载"><a href="#Next-主题下载" class="headerlink" title="Next 主题下载"></a>Next 主题下载</h3><p>Next 主题版本有许多，但请注意，Hexo 如果更新至 4.0.0 ，低版本的 Next 主题“上一页”“下一页”的按钮将会渲染失败，呈现出裸露的代码，据说需要将 Next 升级至 7.4.2 以上才可，故接下来的配置是对 Next 7.4.2 进行配置。首先你要有 Next 主题文件包，Don’t worry, it’s free. 现在就下载 &gt;&gt;&gt; <a href="https://github.com/theme-next/hexo-theme-next/releases/tag/v7.4.2" target="_blank" rel="noopener">点击这里</a></p>
 <p>Source code (zip) 即是 Next 7.4.2 主题文件包，点击下载</p>
-<p><img src="Hexo-Theme-Next-configure-and-prettify/NextDownload.png" alt="NextDownload" style="zoom:50%;"></p>
+<p><img class="lazyload" onerror="imgError(this,3)" src="//www.ns05.top/2019/11/30/Hexo-Theme-Next-configure-and-prettify/NextDownload.png" alt="NextDownload" style="zoom:50%;"></p>
 <p>因习惯，将下载下来的文件的文件名由 hexo-theme-next-7.4.2 改为 next ，将其放置到 MyBlog（你博客文件夹的名称，下文将均写为MyBlog） &gt;&gt;&gt; themes 中，这样，准备工作就完成了</p>
-<h4 id="Next-主题配置"><a href="#Next-主题配置" class="headerlink" title="Next 主题配置"></a>Next 主题配置</h4><hr>
-<p>下面进行主题的基本配置</p>
-<h5 id="Hexo-配置"><a href="#Hexo-配置" class="headerlink" title="Hexo 配置"></a>Hexo 配置</h5><p>打开 MyBlog &gt;&gt;&gt; _config.yml 文件</p>
+<h3 id="Next-主题配置"><a href="#Next-主题配置" class="headerlink" title="Next 主题配置"></a>Next 主题配置</h3><p>下面进行主题的基本配置</p>
+<h4 id="Hexo-配置"><a href="#Hexo-配置" class="headerlink" title="Hexo 配置"></a>Hexo 配置</h4><p>打开 MyBlog &gt;&gt;&gt; _config.yml 文件</p>
 <p>PS：推荐使用 Sublime Text 打开，macOS 可通过右键该文件 &gt;&gt;&gt; 打开方式 &gt;&gt;&gt; Sublime Text &gt;&gt;&gt; 全部更改… 来设置其为默认的应用程序</p>
 <p>修改中文注释的配置</p>
 <pre><code class="yaml"># Hexo Configuration
@@ -551,7 +556,7 @@ deploy:
   branch: master
 </code></pre>
 <p>官方文档更加详细，<a href="https://hexo.io/zh-cn/docs/configuration" target="_blank" rel="noopener">了解更多</a></p>
-<h5 id="Next-配置"><a href="#Next-配置" class="headerlink" title="Next 配置"></a>Next 配置</h5><h6 id="配置主题"><a href="#配置主题" class="headerlink" title="配置主题"></a>配置主题</h6><p>尽管 Next 已经是一个主题，但开发者又为我们配备了4种样式</p>
+<h4 id="Next-配置"><a href="#Next-配置" class="headerlink" title="Next 配置"></a>Next 配置</h4><h5 id="配置主题"><a href="#配置主题" class="headerlink" title="配置主题"></a>配置主题</h5><p>尽管 Next 已经是一个主题，但开发者又为我们配备了4种样式</p>
 <p>打开 MyBlog &gt;&gt;&gt; themes &gt;&gt;&gt; next &gt;&gt;&gt; _config.yml 文件</p>
 <p>找到 Schemes</p>
 <pre><code># Schemes
@@ -559,8 +564,8 @@ deploy:
 #scheme: Mist
 scheme: Pisces  #本博客使用该样式，你当然可以选择其他样式
 #scheme: Gemini
-</code></pre><h6 id="配置目录"><a href="#配置目录" class="headerlink" title="配置目录"></a>配置目录</h6><p>下图所示位置</p>
-<p><img src="Hexo-Theme-Next-configure-and-prettify/Menu.png" alt="Menu" style="zoom:50%;"></p>
+</code></pre><h5 id="配置目录"><a href="#配置目录" class="headerlink" title="配置目录"></a>配置目录</h5><p>下图所示位置</p>
+<p><img class="lazyload" onerror="imgError(this,3)" src="//www.ns05.top/2019/11/30/Hexo-Theme-Next-configure-and-prettify/Menu.png" alt="Menu" style="zoom:50%;"></p>
 <p>打开 MyBlog &gt;&gt;&gt; themes &gt;&gt;&gt; next &gt;&gt;&gt; _config.yml 文件</p>
 <p>找到 menu 暂且修改中文注释的位置</p>
 <pre><code class="yaml">menu:
@@ -633,7 +638,7 @@ sudo hexo s
 </code></pre><p>然后在本地查看，觉得无误后，Ctrl+C ，输入</p>
 <pre><code>sudo hexo d
 </code></pre><p>就上传至网页上了，以后每次改动，都这样操作，下文不再赘述</p>
-<h3 id="Next-美化"><a href="#Next-美化" class="headerlink" title="Next 美化"></a>Next 美化</h3><center><br>未完待续…<br></center>
+<h2 id="Next-美化"><a href="#Next-美化" class="headerlink" title="Next 美化"></a>Next 美化</h2><center><br>未完待续…<br></center>
 
 
         </div>
@@ -642,8 +647,8 @@ sudo hexo s
           <div class="reward-open">赏
             <div class="reward-main">
               <ul class="reward-row">
-                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1//img/custom/donate/AliPayQR.jpg"></li>
-                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1//img/custom/donate/WeChanQR.jpg"></li>
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.3//img/custom/donate/AliPayQR.jpg"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.3//img/custom/donate/WeChanQR.jpg"></li>
               </ul>
             </div>
           </div>
@@ -668,7 +673,7 @@ sudo hexo s
           
             <a href="/2019/12/01/Typora-and-Markdown/" rel="prev">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/ThemeSakura/img/Background/YuJunJue1.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/ThemeSakura/img/Background/YuJunJue1.jpg">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.4/ThemeSakura/img/Background/YourLieInApril19.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.4/ThemeSakura/img/Background/YourLieInApril19.png">
               </div>
               <span class="label">
               Previous Post</span>
@@ -686,7 +691,7 @@ sudo hexo s
           
             <a href="/2019/11/26/MacOS-Set-up-Your-Blog-by-Hexo-and-Github/" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/ThemeSakura/img/Background/YuJunJue1.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/ThemeSakura/img/Background/YuJunJue1.jpg">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.4/ThemeSakura/img/Background/YourLieInApril1.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.4/ThemeSakura/img/Background/YourLieInApril1.jpg">
               </div>
               <span class="label">
               Next Post</span>
@@ -725,7 +730,7 @@ sudo hexo s
           </div>
         </div>
         <hr>
-        <p><i class="iconfont icon-write"></i></p>
+        <p><i class="iconfont icon-write"></i>To be the sunshine.</p>
       </section>
     </main><!-- #main -->
   </div><!-- #primary -->
@@ -865,7 +870,7 @@ $(document).ready(function() {
   </section>
   <div id="mo-nav" class="">
   <div class="m-avatar">
-    <img src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.1//img/custom/avatar.jpg">
+    <img src="https://cdn.jsdelivr.net/gh/ns05/SakuraCDN@1.3//img/custom/avatar.jpg">
   </div>
   <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">さくらのNS05</p>
   <p style="text-align: center; word-spacing: 20px;">
@@ -892,7 +897,7 @@ $(document).ready(function() {
       <li>
         <a href="/archives">
           <span class="faa-parent animated-hover">
-            <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+            <i class="fa  fa-archive faa-tada" aria-hidden="true"></i>
             归档
           </span>
         </a>
@@ -1112,6 +1117,13 @@ $(document).ready(function() {
                 <a href="/theme-sakura/">
                   <i class="fa iconfont icon-sakura" aria-hidden="true"></i>
                   主题
+                </a>
+              </li>
+            
+              <li>
+                <a href="/lab/">
+                  <i class="fa fa-wordpress" aria-hidden="true"></i>
+                  实验室
                 </a>
               </li>
             
